@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><style type="text/css">.lw { font-size: 60px; }</style>
+
+
+<title>HTML5, CSS3 and JavaScript demo</title>
+</head>
+<body>
+<!-- Start your code here -->
+
+<p class="lw">Hello Weaver!</p>
+  <script>
+// Write JavaScript here 
+var floor=prompt("Choose Floor: \n G: Ground Floor \n 1:First Floor \n 2:Second Floor \n 3:Third Floor \n 4:Fourth Floor");
+
+//switch statement here
+switch(floor){
+  case 'G': var rooms=prompt("Choose room 1: \n room 2:"); switch(rooms) {
+    case '1':alert("welcome to room 1");break;
+    case '2':alert("welcome to room 2");break;
+    default: alert("No room");
+          };break;
+  case '1': alert("First Floor");break;
+   case '2': alert("Second Floor");break; 
+    case '3': alert("Third Floor");break;
+    case '4': alert("Fourth Floor");break;
+  default: alert("There is no such floor");
+}
+  </script>
+<!-- End your code here -->
+
+<script>// Write JavaScript here 
+var floor=prompt("Choose Floor: \n G: Ground Floor \n 1:First Floor \n 2:Second Floor \n 3:Third Floor \n 4:Fourth Floor");
+
+//switch statement here
+switch(floor){
+  case G: alert("Ground Floor");break;
+  case 1: alert("First Floor");break;
+   case 2: alert("Second Floor");break; 
+    case 3: alert("Third Floor");break;
+    case 4: alert("Fourth Floor");break;
+  default: alert("There is no such floor");
+}</script></body>
